@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/Astropilot/PenumbraBPAutoSplitter/master/images/bpb.jpg" alt="Penumbra Black Plague" width="200">
+  <img src="https://raw.githubusercontent.com/Astropilot/PenumbraBPAutoSplitter/master/images/bpb.jpg" alt="Penumbra Black Plague" width="400">
 </h1>
 
 <h4 align="center">
@@ -28,29 +28,41 @@ Penumbra Black Plague - Auto Splitter</h4>
 
 ## About
 
-This repository contains the ASL script that allows LiveSplit to auto-split, to remove load times and auto-reset at the start of a new game.
-It also contains among other things two split files, one of which has been subsplitted for clarity. You will also find a Cheat Engine table with the different addresses used by the script for development and debugging purposes.
+This repository contains the ASL script (`Penumbra_Black_Plague.asl`) that allows [LiveSplit](https://livesplit.org/) to auto-split, to remove load times and auto-reset at the start of a new game.
+
+This repository also contains the following files:
+* `Penumbra Black Plague - Any% (Auto-Splitted).lss` : This is a split file for LiveSplit containing all the possible splits corresponding to level changes
+* `Penumbra Black Plague - Any% Subsplits (Auto-Splitted).lss` : Same as the file above but the splits have been grouped into categories for a more pleasant display
+* `penumbra.CT` : A [CheatEngine](https://www.cheatengine.org/) table with the different addresses used by the script for development and debugging purposes
 
 This script supports the following versions of Penumbra Black Plague:
 * The Steam version
-* The GOG version with the 1.1 patchfix
+* The GOG version with the [1.1 patch](https://www.frictionalgames.com/forum/thread-24333.html)
 
 ## Usage
 
 Open LiveSplit's splits editor and enter in the game's name. The autosplitter should appear above the splits. Simply click the Activate button.
 
-If the plguin doesn't appear in LiveSplit automatically then you must download the script [here](https://github.com/Astropilot/PenumbraBPAutoSplitter/releases/latest), add Control -> Scriptable Auto Splitter to your layout, open the layout settings, and point it to the file `Penumbra_Black_Plague.asl`. This is generally only used to test new scripts and normally shouldn't be used.
+<p align="center">
+<img src="https://raw.githubusercontent.com/Astropilot/PenumbraBPAutoSplitter/master/images/tutorial_1.png" alt="Splits Editor" width="600">
+</p>
+
+If the plugin doesn't appear in LiveSplit automatically then you must download the script [here](https://github.com/Astropilot/PenumbraBPAutoSplitter/releases/latest), add Control -> Scriptable Auto Splitter to your layout, open the layout settings, and point it to the file `Penumbra_Black_Plague.asl`.<br>
+This is generally only used to test new scripts and normally shouldn't be used.
 
 ## Contributing
 
 We would be happy to see you contribute to the development of the script!
+
 You can open a issue in case of a problem or fork this repository to propose a modification via a pull request.
 
 ## Authors
 
-* MagicALCN ([Github@TheMagicAlicorn](https://github.com/TheMagicAlicorn))
-* Kappawaii ([Github@Kappawaii](https://github.com/Kappawaii))
-* Astropilot ([Github@Astropilot](https://github.com/Astropilot))
-* Tarados (Discord: Tarados#7111)
-* DrTChops ([Github@drtchops](https://github.com/drtchops))
-* Kotti (Discord: Kotti#4747)
+|               | Github profile                                        | Discord                                             |
+|---------------|:-----------------------------------------------------:|:---------------------------------------------------:|
+| MagicALCN     | [TheMagicAlicorn](https://github.com/TheMagicAlicorn) | MagicALCN#0411                                      |
+| Kappawaii     | [Kappawaii](https://github.com/Kappawaii)             | Kappawaii#9448                                      |
+| Astropilot    | [Astropilot](https://github.com/Astropilot)           | Темный код#2347                                     |
+| Tarados       |                                                       | Tarados#7111                                        |
+| DrTChops      | [drtchops](https://github.com/drtchops)               | Twitch : [DrTChops](https://www.twitch.tv/drtchops) |
+| Kotti         |                                                       | Kotti#4747                                          |
