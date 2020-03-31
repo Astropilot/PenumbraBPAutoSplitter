@@ -90,7 +90,7 @@ gameTime {
 
 
 reset {
-  return (current.gameTime == 0 && current.levelName == "level01_cells"); // If a new game is found, we reset the splits
+    return (current.gameTime == 0 && current.levelName == "level01_cells"); // If a new game is found, we reset the splits
 }
 
 
