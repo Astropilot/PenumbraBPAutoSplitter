@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/Astropilot/PenumbraBPAutoSplitter/master/images/pbp.jpg" alt="Penumbra Black Plague" width="200">
+  <img src="https://raw.githubusercontent.com/Astropilot/PenumbraBPAutoSplitter/master/images/bpb.jpg" alt="Penumbra Black Plague" width="200">
 </h1>
 
 <h4 align="center">
